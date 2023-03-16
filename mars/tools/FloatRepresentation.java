@@ -88,13 +88,13 @@ public class FloatRepresentation extends AbstractMarsToolAndApplication {
 	private static final String denormalizedLabel = "                 significand (denormalized - no 'hidden bit')";
 	private static final String normalizedLabel = "                 significand ('hidden bit' underlined)       ";
 	private static final Font instructionsFont = new Font("Arial", Font.PLAIN, 14);
-	private static final Font hexDisplayFont = new Font("Courier", Font.PLAIN, 32);
-	private static final Font binaryDisplayFont = new Font("Courier", Font.PLAIN, 18);
-	private static final Font decimalDisplayFont = new Font("Courier", Font.PLAIN, 18);
+	private static final Font hexDisplayFont = new Font("Consolas", Font.PLAIN, 32);
+	private static final Font binaryDisplayFont = new Font("Consolas", Font.PLAIN, 18);
+	private static final Font decimalDisplayFont = new Font("Consolas", Font.PLAIN, 18);
 	private static final Color hexDisplayColor = Color.red;
 	private static final Color binaryDisplayColor = Color.black;
 	private static final Color decimalDisplayColor = Color.blue;
-	private static final String expansionFontTag = "<font size=\"+1\" face=\"Courier\" color=\"#000000\">";
+	private static final String expansionFontTag = "<font size=\"+1\" face=\"Consolas\" color=\"#000000\">";
 	private static final String instructionFontTag = "<font size=\"+0\" face=\"Verdana, Arial, Helvetica\" color=\"#000000\">";
 	private static final int exponentBias = 127;  // 32 bit floating point exponent bias
 
