@@ -4,11 +4,11 @@
 
 This is a fork of the [Theme Engine for MARS (MIPS Assembler and Runtime Simulator)](https://github.com/aeris170/MARS-Theme-Engine).
 
-This fork aims to make [MARS](https://courses.missouristate.edu/KenVollmar/mars/) have a modern UI, making it more usable for students and teachers. The project is currently in a very early stage, and is not ready for production use. If you are looking for a stable version of MARS, please use the original project.
+This fork aims to make [MARS](https://courses.missouristate.edu/KenVollmar/mars/) have a modern UI, making it more usable for students and teachers. The project is currently in a very early stage, and is not ready for production or education use. If you are looking for a stable version of MARS, please use the original project.
 
 ## Usage
 
-Go to [Releases](https://github.com/BobYue-01/MARS-Theme-Engine/releases). You'll see `Mars.jar` and `MarsDarkTheme.reg`. Download them and run `Mars.jar`. If you are using Windows, you can double click `MarsDarkTheme.reg` to apply the dark theme.
+Go to [Releases](https://github.com/BobYue-01/MARS-Theme-Engine/releases). You'll see `Mars.jar` and `MarsDarkTheme.reg`. Download them and run `Mars.jar`. If you are using Windows, you can double click `MarsDarkTheme.reg` to apply the dark theme before you run jar.
 
 ## Security Notice
 
@@ -18,19 +18,19 @@ Also, as reg files will change your registry, you should be careful before you r
 
 # MARS 进化
 
-这是 [Theme Engine for MARS (MIPS Assembler and Runtime Simulator)](https://github.com/aeris170/MARS-Theme-Engine) 的一个分支。
+这是 [Theme Engine for MARS (MIPS Assembler and Runtime Simulator)](https://github.com/aeris170/MARS-Theme-Engine) 的一个复刻。
 
-这个分支致力于让 [MARS](https://courses.missouristate.edu/KenVollmar/mars/) 拥有现代化的 UI，使它对学生和老师更加易用。这个项目目前处于非常早期的阶段，不保证用于生产、学习环境的稳定性。如果你正在寻找一个稳定的 MARS 版本，请使用原项目。
+这个复刻致力于让 [MARS](https://courses.missouristate.edu/KenVollmar/mars/) 拥有现代化的 UI，使它对学生和老师更加易用。它目前处于早期测试阶段，不保证用于生产、学习环境的稳定性。如果你正在寻找稳定的 MARS 版本，请使用原项目。
 
 ## 使用方法
 
-前往 [Releases](https://github.com/BobYue-01/MARS-Theme-Engine/releases)。你会看到 `Mars.jar` 和 `MarsDarkTheme.reg`。下载它们并运行 `Mars.jar`。如果你使用的是 Windows，你可以双击 `MarsDarkTheme.reg` 来应用暗色主题。
+前往 [Releases](https://github.com/BobYue-01/MARS-Theme-Engine/releases)。你会看到 `Mars.jar` 和 `MarsDarkTheme.reg`。下载它们并运行 `Mars.jar`。如果你使用的是 Windows，你可以在运行 jar 之前双击 `MarsDarkTheme.reg` 来应用暗色主题。
 
 ## 安全提示
 
-这个项目与密苏里州立大学没有任何关系。原项目托管在 https://courses.missouristate.edu/KenVollmar/mars/ 。如果你正在寻找一个稳定的 MARS 版本，请使用原项目。
+这个项目并非密苏里州立大学的官方版本。原项目托管在 https://courses.missouristate.edu/KenVollmar/mars/ 。如果你需要稳定的 MARS 版本，请使用原项目。
 
-此外，由于 reg 文件会更改你的注册表，所以你应该小心地运行 `MarsDarkTheme.reg`。在将它合并到你的 Windows 之前，你应该右键单击它并选择“编辑”。文件中的所有键都应该在 `[HKEY_CURRENT_USER\Software\JavaSoft\Prefs\mars]` 下。如果你看到了其他东西，请不要运行这个文件。否则，你可以安全地运行它。
+此外，由于 reg 文件会更改你的注册表，所以你应该小心地运行 `MarsDarkTheme.reg`。如果你对它的安全性有所担心，在将它合并到你的 Windows 之前，你应该右键单击它并选择“编辑”。文件中的所有键都应该在 `[HKEY_CURRENT_USER\Software\JavaSoft\Prefs\mars]` 下。如果你看到了其他东西，请不要运行这个文件。否则，你可以安全地运行它。
 
 ---
 
